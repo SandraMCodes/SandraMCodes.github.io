@@ -8,9 +8,19 @@
  Add a short paragraph describing the features below. What aesthetic and technical choices did you make? 
 - [ ] At least one profile picture
 - [ ] Biography (at least 100 words)
+
+Hi there! I'm Sandra, an aspiring coder with a background in IT and executive support.  Driven by a lifelong curiosity and a love for technology my goal is to harness my technical skills to create innovatinve and impactful solutions.  
+Here is a glimpse of some work I have been doing lately: 
+
+If you're looking for someone who combines a blend of technical expertise and organisational awareness feel free to reach out, I'd love to connect!
+
+
+- [ ] Functional Contact Form
 - [ ] Functional Contact Form
 - [ ] "Projects" section
 - [ ] Links to external sites, e.g. GitHub and LinkedIn.
+https://www.linkedin.com/in/sandradimartin/ 
+https://perthlover.com/
 ​
 ### Technical
  Add a short paragraph describing the features below. What strategies or design decisions did you work from? 

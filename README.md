@@ -53,5 +53,13 @@ https://github.com/SandraMCodes
 
 ####  image_title_goes_here 
 
-Desktop home page  <src="img/
+![Desktop homescreen](.img/Desktop Home screen of Site.jpg)
+![Desktop portfolio screen](.img/Desktop portfolio page of site.jpg)
+![Desktop contact page](.img/Desktop contact page of site.jpg)
+![Mobile home page](.img/Mobile Home Page.jpg)
+![Mobile home page2](img/Mobile Home Page 2.jpg)
+![Mobile home page 3](img/Mobile Home Page 3.jpg)
+![Mobile Portfolio page](img/Mobile Portfolio page.jpg)
+![mobile contact page](img/Mobile Contact Page.jpg)
+![mobile contact page2](img/Mobile Contact Page 2.jpg)
 ![Put a description of your image here](./relative_path_to_file)

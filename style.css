@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Indie+Flower&display=swap');
+
+/* style.css*/
+
+
+:root {
+    --brand: #2B3B2F;
+    --brand-alt: #678972;
+    --action: #D3DED7;
+    --action-alt: #Edbfb7;
+    --base-lightest: #FDEDF5;
+    --base-lighter: #F7CAE1;
+    --base-light: #DB519D;
+    --base-mid: #E990C1;
+    --base-dark: #7f1a52;
+    --base-darker: #D63D80;
+    --base-darkest: #e06c9f;
+   
+    --text: var(--base-dark);
+}
+
+/* set default font style here */
+html,
+body {
+    font-family: "Karla", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0
+    padding 0;
+    color: var(--text);
+    background-color: #F7CAE1;
+
+}
+
+/* Add Heading styles here  */
+h1 {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+h2 {
+    
+    font-family: "Karla"; sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+
+h3 {font-family: "Karla"; sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;}
+
+h4 {
+    font-family: "Karla"; sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+}
+
+h5 { 
+    font-family: "karla", sans-serif;
+}
+
+h6 {
+    font-family: "karla", sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ol,
+ul
+/* Components */
+
+/* btn-primary */
+.btn-primary {
+    padding: 12px 20px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--black);
+    border-radius: 4px;
+    background-color: var(--action);
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.btn-primary:hover {
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+}
+
+/* header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+
+Header img {
+    max-height: 120px;
+   
+}
+header .mobile-header {
+    padding: 16px;
+}
+
+header button {
+    all: unset;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+/* .logo */
+.logo {
+    height: 50px;
+}
+
+/* style to make style guide */
+body {
+    padding: 20px;
+    color: #2B3B2F;
+}
+
+.colors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.colors div {
+    width: 100px;
+    height: 100px;
+}
+
+.brand {
+    background-color: var(#2B3B2F);
+}
+
+.brand-alt {
+    background-color: var(#678972);
+}
+
+.action {
+    background-color: var(#D3DED7);
+}
+
+.action-alt {
+    background-color: var(#Edbfb7);
+}
+
+.base-darkest {
+    background-color: var(#e06c9f);
+}
+
+.base-darker {
+    background-color: var(#D63D80);
+}
+
+.base-dark {
+    background-color: var(#7f1a52);
+}
+
+.base-mid {
+    background-color: var(#E990C1);
+}
+
+.base-light {
+    background-color: var(#DB519D);
+}
+
+.base-lighter {
+    background-color: var(#F7CAE1);
+}
+
+.base-lightest {
+    background-color: var(#FDEDF5);
+}
+
+body {
+    background-color: #F7CAE1;
+
+}
+
+/* .hero */
+.hero {
+    background-color: var(--action-alt);
+    padding: 56px 16px;
+    border-radius: 10px;
+    margin: 5px 10px;
+    text-align: center;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero h1 {
+    font-size: 2rem;
+    margin-bottom: 24px;
+    color: var(--white);
+}
+.hero img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.hero .hero-accent {
+    color: var(--action);
+}
+
+@media (min-width: 768px) {
+    .hero {
+        padding: 120px 56px;
+    }
+
+    .hero h1 {
+        font-size: 3.5rem;
+        max-width: 70%;
+    }
+}
+
+/* .articles-container */
+@media (min-width: 768px) {
+    .articles-container {
+     display: flex;
+    }
+}
+
+article {
+    padding: 32px 16px;
+    background-color: var(--base-mid);
+    border-radius: 10px;
+    margin: 5px 10px;
+    transition: all 0.3s ease;
+}
+
+@media (min-width: 768px) {
+    article {
+        padding: 56px;
+    }
+}
+
+article:hover {
+    filter: contrast(150%);
+}
+
+article .article-heading {
+    display: flex;
+    justify-content: flex-start;
+}
+
+article .icon {
+    height: 24px;
+    width: 24px;
+    margin: 0 10px;
+}
+
+article .article-heading h2 {
+    margin-bottom: 16px;
+    color: var(--base-darkest);
+}
+
+article p {
+    margin-bottom: 16px;
+}
+
+/* .contact-form */
+.contact-form {
+    padding: 48px 16px;
+    border-radius: 10px;
+    margin: 5px 10px;
+   text-align: left;
+}
+
+.contact-form input,
+.contact-form select {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+}
+
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    padding: 8px;
+}
+
+.contact-form label {
+    display: block;
+    width: 100%;
+}
+
+.contact-form h2 {
+    color: var(--base-dark);
+    margin-bottom: 16px;
+}
+
+.contact-form input[type="submit"] {
+    display: block;
+    background-color: var(--action);
+    border: 0;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+@media (min-width: 768px) {
+    contact-form h2 {
+        text-align: center;
+        font-size: 2.5rem;
+        color: #2B3B2F;
+    }
+
+    .contact-form form {
+        max-width: 60%;
+        margin: 40px auto;
+    }
+}
+
+/* footer */
+footer {
+    padding: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.socials-icon {
+    width: 40px;
+    height: 40px;
+}
+
+@media (min-width: 768px) {
+    footer {
+        justify-content: center;
+    }
+
+    footer .socials-icon {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

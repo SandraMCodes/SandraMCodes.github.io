@@ -62,4 +62,4 @@ https://github.com/SandraMCodes
 ![Mobile Portfolio page](img/Mobile Portfolio page.jpg)
 ![mobile contact page](img/Mobile Contact Page.jpg)
 ![mobile contact page2](img/Mobile Contact Page 2.jpg)
-![Put a description of your image here](./relative_path_to_file)
+

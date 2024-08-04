@@ -15,7 +15,7 @@
     --base-dark: #7f1a52;
     --base-darker: #D63D80;
     --base-darkest: #e06c9f;
-    /*  inherited colors  */
+   
     --text: var(--base-dark);
 }
 
@@ -26,23 +26,44 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+    margin: 0
+    padding 0;
+    color: var(--text);
+    background-color: #F7CAE1;
 
 }
 
 /* Add Heading styles here  */
 h1 {
-    font-family: "Lato", cursive;
+    font-family: "Karla", sans-serif;
     font-weight: 400;
     font-style: normal;
+    text-align: center;
 }
 
-h2 {}
+h2 {
+    
+    font-family: "Karla"; sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
 
-h3 {}
+h3 {font-family: "Karla"; sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;}
 
-h4 {}
+h4 {
+    font-family: "Karla"; sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: right;
+}
 
-h5 {}
+h5 { 
+    font-family: "karla", sans-serif;
+}
 
 h6 {
     font-family: "karla", sans-serif;
@@ -51,6 +72,8 @@ h6 {
 ol,
 ul {
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 ol,
@@ -59,13 +82,14 @@ ul
 
 /* btn-primary */
 .btn-primary {
-    padding: 12px 16px;
+    padding: 12px 20px;
     display: inline-block;
     text-decoration: none;
     color: var(--black);
     border-radius: 4px;
     background-color: var(--action);
     transition: all 0.3s ease;
+    text-align: center;
 }
 
 .btn-primary:hover {
@@ -77,10 +101,17 @@ ul
 
 header {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 
 }
 
+Header img {
+    max-height: 120px;
+   
+}
 header .mobile-header {
     padding: 16px;
 }
@@ -92,8 +123,11 @@ header button {
 nav ul {
     display: flex;
     gap: 20px;
+    padding: 0;
+    margin: 0;
     
 }
+
 
 /* .logo */
 .logo {
@@ -172,12 +206,23 @@ body {
     padding: 56px 16px;
     border-radius: 10px;
     margin: 5px 10px;
+    text-align: center;
 }
 
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .hero h1 {
     font-size: 2rem;
     margin-bottom: 24px;
     color: var(--white);
+}
+.hero img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
 }
 
 .hero .hero-accent {
@@ -198,7 +243,7 @@ body {
 /* .articles-container */
 @media (min-width: 768px) {
     .articles-container {
-        display: flex;
+     display: flex;
     }
 }
 
@@ -228,8 +273,7 @@ article .article-heading {
 article .icon {
     height: 24px;
     width: 24px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 0 10px;
 }
 
 article .article-heading h2 {
@@ -246,6 +290,7 @@ article p {
     padding: 48px 16px;
     border-radius: 10px;
     margin: 5px 10px;
+   text-align: left;
 }
 
 .contact-form input,
@@ -298,7 +343,7 @@ footer {
     padding: 16px;
     text-align: center;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
 .socials-icon {

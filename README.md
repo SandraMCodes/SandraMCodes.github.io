@@ -1,6 +1,6 @@
 #  Sandra - Portfolio Task
 ​
-[My portfolio site](http://127.0.0.1:5500/index.html)
+[My portfolio site](https://sandramcodes.github.io/)
 ​
 ## Project Requirements
 

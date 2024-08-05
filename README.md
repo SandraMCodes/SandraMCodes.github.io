@@ -1,6 +1,6 @@
 #  Sandra - Portfolio Task
 ​
-[My portfolio site](http://127.0.0.1:5500/index.html)
+(https://sandramcodes.github.io/)
 ​
 ## Project Requirements
 
@@ -52,6 +52,13 @@ See here for a link to my portfolio:
 
 ####  image_title_goes_here 
 
-Desktop home page  .
-![Desktop home page] (.img/desk)
-![desktop contact page] (./img/Desktop contact page of site.jpg)
+![Desktop homescreen](.img/Desktop Home screen of Site.jpg)
+![Desktop portfolio screen](.img/Desktop portfolio page of site.jpg)
+![Desktop contact page](.img/Desktop contact page of site.jpg)
+![Mobile home page](.img/Mobile Home Page.jpg)
+![Mobile home page2](img/Mobile Home Page 2.jpg)
+![Mobile home page 3](img/Mobile Home Page 3.jpg)
+![Mobile Portfolio page](img/Mobile Portfolio page.jpg)
+![mobile contact page](img/Mobile Contact Page.jpg)
+![mobile contact page2](img/Mobile Contact Page 2.jpg)
+

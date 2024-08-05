@@ -24,8 +24,7 @@ See here for a link to my portfolio:
 - [x] Functional Contact Form
 - [x] "Projects" section
 - [x] Links to external sites, e.g. GitHub and LinkedIn.
-https://www.linkedin.com/in/sandradimartin/ 
-https://github.com/SandraMCodes
+
 
 ​
 ### Technical
@@ -53,5 +52,6 @@ https://github.com/SandraMCodes
 
 ####  image_title_goes_here 
 
-Desktop home page  <src="img/
-![Put a description of your image here](./relative_path_to_file)
+Desktop home page  .
+![Desktop home page] (.img/desk)
+![desktop contact page] (./img/Desktop contact page of site.jpg)

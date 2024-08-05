@@ -68,6 +68,8 @@ See here for a link to my portfolio:
 
 ![Desktop portfolio page](<./img/Desktop portfolio page of site.jpg>)
 
+![Desktop contact page](<./img/Desktop contact page of site.jpg>)
+
 
 
 

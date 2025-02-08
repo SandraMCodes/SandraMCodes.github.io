@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Karla:wght@400;700&display=swap');
+
+/* CSS Reset and Variables */
+:root {
+    --brand: #2B3B2F;
+    --brand-alt: #678972;
+    --action: #D3DED7;
+    --action-alt: #EDBFB7;
+    --base-lightest: #FDEDF5;
+    --base-lighter: #F7CAE1;
+    --base-light: #DB519D;
+    --base-mid: #E990C1;
+    --base-dark: #7f1a52;
+    --base-darker: #D63D80;
+    --base-darkest: #e06c9f;
+    --text: var(--base-dark);
+    --spacing-sm: 0.5rem;
+    --spacing-md: 1rem;
+    --spacing-lg: 2rem;
+    --border-radius: 10px;
+    --transition: all 0.3s ease;
+}
+
+/* Base Styles */
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: var(--text);
+    background-color: var(--base-lighter);
+    line-height: 1.6;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    margin: 0 0 var(--spacing-md);
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.75rem;
+}
+
+p {
+    margin: 0 0 var(--spacing-md);
+}
+
+/* Layout Components */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+}
+
+/* Header and Navigation */
+header {
+    padding: var(--spacing-lg);
+    background-color: var(--base-lightest);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    max-height: 80px;
+    width: auto;
+    display: block;
+    margin: 0 auto var(--spacing-md);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-lg);
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav a {
+    color: var(--brand);
+    text-decoration: none;
+    font-weight: 700;
+    transition: var(--transition);
+    padding: var(--spacing-sm) var(--spacing-md);
+    border-radius: var(--border-radius);
+}
+
+nav a:hover {
+    background-color: var(--action);
+    color: var(--brand-alt);
+}
+
+/* Hero Section */
+.hero {
+    background-color: var(--action-alt);
+    padding: var(--spacing-lg);
+    border-radius: var(--border-radius);
+    margin: var(--spacing-md);
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero img {
+    max-width: 300px;
+    height: auto;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: var(--spacing-lg) 0;
+}
+
+/* Articles */
+article {
+    background-color: var(--base-mid);
+    border-radius: var(--border-radius);
+    padding: var(--spacing-lg);
+    margin: var(--spacing-md);
+    transition: var(--transition);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+article:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons */
+.btn-primary {
+    display: inline-block;
+    padding: var(--spacing-md) var(--spacing-lg);
+    background-color: var(--action);
+    color: var(--brand);
+    text-decoration: none;
+    border-radius: var(--border-radius);
+    transition: var(--transition);
+    font-weight: 700;
+    text-align: center;
+}
+
+.btn-primary:hover {
+    background-color: var(--brand);
+    color: var(--action);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer and Social Icons */
+footer {
+    padding: var(--spacing-lg);
+    background-color: var(--base-lightest);
+    margin-top: var(--spacing-lg);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-lg);
+}
+
+.socials-icon {
+    width: 32px;
+    height: 32px;
+    transition: var(--transition);
+}
+
+.socials-icon:hover {
+    transform: scale(1.1);
+}
+
+/* Media Queries */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 3.5rem;
+    }
+
+    .hero {
+        padding: var(--spacing-lg) * 2;
+    }
+
+    .articles-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: var(--spacing-lg);
+    }
+}

@@ -1,6 +1,6 @@
 #  Sandra - Portfolio Task
 ​
-[My portfolio site](https://sandramcodes.github.io/)
+(https://sandramcodes.github.io/)
 ​
 ## Project Requirements
 
@@ -48,29 +48,17 @@ See here for a link to my portfolio:
 
 > - The different pages and features of your website on mobile, tablet and desktop screen sizes (multiple screenshots per page and screen size).
 > - The different features of your site, e.g. if you have hover states, take a screenshot that shows that.  
-> You can do this by saving the images in a folder in your repo, and including them in your readme document with the following Markdown code
+> You can do this by saving the images in a folder in your repo, and including them in your readme document with the following Markdown code: 
 
-![Excalidraw mock up](<./img/excalidraw screen shot.jpg>)
+####  image_title_goes_here 
 
-![Mobile Home Page](<./img/Mobile Home Page.jpg>)
-
-![Mobile Home Page 2](<./img/Mobile Home Page 2.jpg>)
-
-![Mobile Home Page 3](<./img/Mobile Home Page 3.jpg>)
-
-![Mobile Portfolio Page](<./img/Mobile Portfolio page.jpg>)
-
-![Mobile Contact Page](<./img/Mobile Contact Page.jpg>)
-
-![Mobile Contact Page 2](<./img/Mobile Contact Page 2.jpg>)
-
-![Desktop home screen](<./img/Desktop Home screen of Site.jpg>)
-
-![Desktop portfolio page](<./img/Desktop portfolio page of site.jpg>)
-
-![Desktop contact page](<./img/Desktop contact page of site.jpg>)
-
-
-
-
+![Desktop homescreen](.img/Desktop Home screen of Site.jpg)
+![Desktop portfolio screen](.img/Desktop portfolio page of site.jpg)
+![Desktop contact page](.img/Desktop contact page of site.jpg)
+![Mobile home page](.img/Mobile Home Page.jpg)
+![Mobile home page2](img/Mobile Home Page 2.jpg)
+![Mobile home page 3](img/Mobile Home Page 3.jpg)
+![Mobile Portfolio page](img/Mobile Portfolio page.jpg)
+![mobile contact page](img/Mobile Contact Page.jpg)
+![mobile contact page2](img/Mobile Contact Page 2.jpg)
 

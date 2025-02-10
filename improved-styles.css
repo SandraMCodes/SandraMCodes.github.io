@@ -30,6 +30,12 @@ html {
     box-sizing: inherit;
 }
 
+main {
+    max-width: 1200px; /* Adjust this value as needed */
+    margin: 0 auto; /* Centers the main content */
+    padding: 0 var(--spacing-md); /* Adds some side padding */
+}
+
 body {
     font-family: "Karla", sans-serif;
     margin: 0;
@@ -80,7 +86,7 @@ header {
 }
 
 .logo {
-    max-height: 80px;
+    max-height: 150px;
     width: auto;
     display: block;
     margin: 0 auto var(--spacing-md);
@@ -115,30 +121,56 @@ nav a:hover {
     padding: var(--spacing-lg);
     border-radius: var(--border-radius);
     margin: var(--spacing-md);
+    max-width: 1000px; /* Limit the width */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-content {
-    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px; /* Further limit the content width */
     margin: 0 auto;
-    text-align: center;
+}
+
+.profile-image-container {
+    max-width: 400px; /* Limit the image container width */
+    width: 100%;
+    margin: var(--spacing-lg) 0;
 }
 
 .hero img {
-    max-width: 300px;
+    max-width: 100%;
     height: auto;
     border-radius: var(--border-radius);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: var(--spacing-lg) 0;
+}
+
+
+.portfolio {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: var(--spacing-lg);
 }
 
 /* Articles */
 article {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
     background-color: var(--base-mid);
     border-radius: var(--border-radius);
     padding: var(--spacing-lg);
     margin: var(--spacing-md);
     transition: var(--transition);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.articles-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 article:hover {
@@ -171,6 +203,14 @@ footer {
     padding: var(--spacing-lg);
     background-color: var(--base-lightest);
     margin-top: var(--spacing-lg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a {
+    display: inline-block;
+    margin: 0 var(--spacing-md);
 }
 
 .social-links {
@@ -189,6 +229,12 @@ footer {
     transform: scale(1.1);
 }
 
+/* Specifically for index page social links */
+body.index-page footer .social-links {
+    justify-content: center;
+    gap: var(--spacing-lg);
+    margin-right: var(--spacing-lg); /* Shifts slightly more to the right */
+}
 /* Media Queries */
 @media (min-width: 768px) {
     h1 {
@@ -204,4 +250,76 @@ footer {
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: var(--spacing-lg);
     }
+
+    .about {
+        padding: var(--spacing-lg);
+        max-width: 1000px; /* Limits the width on larger screens */
+        margin: 0 auto; /* Centers the content */
+    }
+    
+    .about-content {
+        background-color: var(--base-lightest);
+        padding: var(--spacing-lg);
+        border-radius: var(--border-radius);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .about p {
+        margin-bottom: var(--spacing-md);
+        line-height: 1.6;
+    }
+    
+    .cta-container {
+        text-align: center;
+        margin-top: var(--spacing-lg);
+    }
+
+    .contact {
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: var(--spacing-lg);
+    }
+    
+    .contact-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contact-form {
+        width: 100%;
+        max-width: 600px;
+        background-color: var(--base-lightest);
+        padding: var(--spacing-lg);
+        border-radius: var(--border-radius);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    
+    .form-group {
+        margin-bottom: var(--spacing-md);
+    }
+    
+    .contact-form label {
+        display: block;
+        margin-bottom: var(--spacing-sm);
+        font-weight: 700;
+    }
+    
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+        padding: var(--spacing-sm);
+        border: 1px solid var(--brand-alt);
+        border-radius: 4px;
+        font-family: 'Karla', sans-serif;
+    }
+    
+    .contact-form textarea {
+        resize: vertical;
+    }
+    
+    .contact-form .btn-primary {
+        width: 100%;
+        margin-top: var(--spacing-md);
+    }
+
 }
